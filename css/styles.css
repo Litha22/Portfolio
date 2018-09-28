@@ -1,0 +1,191 @@
+/* FONT FAMILIES
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Noticia Text', serif; */
+/* this is for everything */
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+ scroll-behavior: smooth;
+
+}
+body{
+    background-image: url(../img/teamwork.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    }
+
+/* Navbar styling starts here */
+
+  nav {
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: grey;
+    background-position: top;
+    background-color:rgba(27, 25, 30, 0.58)
+}
+
+/* navbar styling ends here */
+
+a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* hover effects */
+
+.link-1 {
+  transition: 0.3s ease;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+h1 {
+ text-align: center;
+ padding: 35px;
+ border: 6px solid black;
+ margin-left: 300px;
+ margin-right: 300px;
+ margin-top: 130px;
+ font-size: 50px;
+ color:Lightgrey;
+ font-family: 'Work Sans', sans-serif;
+ background-color:rgba(27, 25, 30, 0.58);
+}
+
+
+/* Section for 'About' content */
+
+.container2 {
+ margin-top: 300px;
+ background-color: grey;
+ height: 300px;
+ color: white;
+ text-align:center;
+ font-family: 'Noto Sans', sans-serif;
+ padding-right: 100px;
+ padding-left:100px;
+ padding-top:25px;
+}
+
+.socialmedia {
+  border-radius: 30%;
+}
+
+.contentbox {
+ background-image: url(../img/idea.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ padding: 10px;
+ margin-left:160px;
+ margin-right: 160px;
+ border-radius:15px;
+ height:245px;
+}
+
+/* new section of Expertise and Contact content */
+
+.largecontainer3 {
+  margin-top: 500px;
+  background-color: grey;
+  height:650px;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Right side content for 'Expertise' */
+
+.contentbox2 {
+padding: 15px;
+  height:550px;
+  color: black;
+  font-family: 'Noto Sans', sans-serif;
+  background-image: url(../img/chess.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 15px;
+  color: white;
+  float:left;
+  margin-left:5%;
+  width: 500px;
+}
+
+/* Left side content for 'Contact info' */
+
+.contentbox3 {
+
+  padding:15px;
+  height:550px;
+  color: black;
+  font-family: 'Noto Sans', sans-serif;
+  background-image: url(../img/chess.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 15px;
+  color: white;
+  float: left;
+  width:500px;
+  margin-left: 100px;
+}
+
+h4 {
+ text align: center;
+}
+
+.icons {
+
+}
+
+/* footer styling */
+
+.footer {
+ height:300px;
+ margin-top:300px;
+ background-color: grey;
+}
+
+
+.footerlinks {
+  transition: 0.5s ease;
+ padding:60px;
+ border-radius: 60%;
+}
+
+.footerlinks:hover {
+  width:100px;
+  height:100px;
+  padding: 30px;
+  border-radius: 60%;
+}
+
+/* Responsive Design starts here */
+
+@media only screen and(min-width)
