@@ -1,4 +1,4 @@
-# website-rebuilding-project
+# Curriculum Vitae
 
 Website rebuilding is all about rebuilding a structure and its additional contents, in this project I will apply the following to achieve a full replica of the original website:
 
@@ -10,7 +10,7 @@ Website rebuilding is all about rebuilding a structure and its additional conten
  - opacity
 
 ## Live Link
-- https://litha22.github.io/website-rebuild/index.html
+- https://litha22.github.io/portfolio/index.html
 
 ## Prevalent Technologies Used
 
@@ -50,4 +50,4 @@ Tools:
 Litha Nelani - 2018
 
 
-visit site here: https://litha22.github.io/website-rebuild/index.html
+visit site here: https://litha22.github.io/portfolio/index.html
